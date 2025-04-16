@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Arrienda Autos deportivos y clasicos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./pagina2.html">Quieres arrendar.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="BUSCAR" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar...</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./imagenes/coche numero 2.avif" alt="" srcset="">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Chevrolet Camaro</h1>
+            <p>Este coche esta equipado con multipes modificaciones para hacer de su traslado mas amigable.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./imagenes/coche numero 1.jpg" alt="" srcset="">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Chevrolet Camaro RS rojo</h1>
+            <p>Clásico americano con estilo único. Motor V8, faros ocultos y diseño deportivo vintage. Perfecto para eventos, fotos o paseos inolvidables.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="./imagenes/coche numero 3.avif" alt="" srcset="">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>McLaren 765LT</h1>
+            <p>te ofrece una experiencia exclusiva, con potencia extrema, diseño único y el placer de conducir sin compromisos.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./imagenes/gerente.jpg" alt="" srcset="">
+
+        <h2>Jefe de socursal</h2>
+        <p>Hola me presento me llamo bayron cerna y soy el creador y fundador de esta empresa</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/vendedora1 (1).jpg" alt="" srcset="">
+        
+        <h2>atencion al cliente</h2>
+        <p>hola me llamo paola y soy de atencion al cliente en nuestra sucursal, estoy aqui para responder tus dudas y consultas y para hacer el papeleo</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./imagenes/mecanico.png" alt="" srcset="">
+
+        <h2>mecanico</h2>
+        <p>Hola me llamo eduardo y soy el mecanico encargado de que los autos se encuentren en buen estasdo para los clientes.</p>
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Chevrolet Camaro 2010 </h2>
+        <p class="lead"> Un muscle car moderno con motor V6 potente, diseño agresivo y un interior que combina comodidad con estilo. Con su parrilla imponente y líneas audaces, este Camaro ofrece la fuerza y estilo de un verdadero clásico, pero con tecnología y confort de última generación. Rentarlo es sentir la adrenalina de un coche que nunca pasa desapercibido.</p>
+      </div>
+      <div class="col-md-5">
+        
+        <img class="mb-2" src="./imagenes/coche numero 2.avif" alt="" width="630" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Chevrolet Camaro RS 1967 </h2>
+        <p class="lead">Un ícono del muscle car americano, con un V8 rugiente, faros ocultos que le dan un toque único, y un diseño clásico que impone respeto. Interior vintage, líneas agresivas y una presencia que roba miradas donde vaya. Rentarlo no es solo manejar, es viajar en el tiempo con estilo y actitud. Ideal para sesiones de fotos, videos, eventos especiales o simplemente para vivir una experiencia única sobre ruedas.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        
+        <img class="mb-2" src="./imagenes/coche numero 1.jpg" alt="" width="500" height="400">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">MCLaren 765 LT </h2>
+        <p class="lead">es un superdeportivo extremo: ligero, brutalmente rápido y diseñado para los que aman la conducción pura. Es edición limitada, con 765 caballos, aerodinámica activa y un estilo que impone presencia en cualquier lugar. Rentarlo es vivir la emoción de la pista... en la calle.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="mb-2" src="./imagenes/coche numero 3.avif" alt="" width="630" height="500">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2024-2025 Bayron cerna. &middot; <a href="#">auto</a> &middot; <a href="#">cars</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
